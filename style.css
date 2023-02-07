@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.beer-search{
+    width: 450px;
+    max-width: 100%;
+    margin: auto;
+    height: 500px;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px grey;
+    border-radius: 4px;
+    overflow: scroll;
+}
+
+.beer-search::-webkit-scrollbar{
+    width: 0;
+}
+
+.search-bar{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* position: sticky; */
+    /* top: 0; */
+    /* background-color: #fff; */
+    /* z-index: 999; */
+}
+.search-bar input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.212);
+    /* border: 1px solid red; */
+}
+
+.product-display{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+.product-box{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0px 0px 1px black; */
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+}
+.drink-name{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.type{
+    color: grey;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.price{
+    margin-left: auto;
+    font-size: 16px;
+    color: #222;
+	font-weight:600;
+}
+
+img{
+    width: 35px;
+    height: 50px;
+    background-color: rgb(227, 224, 224);
+    padding: 3px 5px;
+    border-radius: 4px;
+}
